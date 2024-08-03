@@ -40,4 +40,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 This program allows users to keep track of their pantry and items. The data is stored in the firebase cloud. Uses NextJS, Next-Auth, Firebase, and Material UI
 
-> > > > > > > a90728813b46b3c6e707b7dbb6e0e3e8e50d3445
+> > > > > > > 
