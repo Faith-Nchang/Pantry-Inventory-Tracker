@@ -38,9 +38,10 @@ export default function Home() {
 
   return (
     <Box width="100vw" height="100vh" display='flex' flexDirection='column' justifyContent='center' alignItems='center' gap={2} bgcolor={'#B3E5FC'}>
-      <Typography id="modal-modal-title" variant="h2" component="h2" sx={{ color: '#003366' }} width={'80%'} textAlign={'center'} fontWeight={'bold'} maringBottom ="10px">
+      <Typography id="modal-modal-title" variant="h2" component="h2" sx={{ color: '#003366' }} width={'80%'} textAlign={'center'} fontWeight={'bold'} marginBottom ="10px">
         Welcome to your personalized Inventory Management
       </Typography>
+      <Box display="flex" gap={2} flexDirection="row">
       <Typography>
         {user ? 
         (<Button variant="contained" onClick={handleRedirect}>Go to Inventory</Button>) :
@@ -48,7 +49,18 @@ export default function Home() {
           Sign in with Google
         </Button>)
         }
+
+
       </Typography>
+      <Typography>
+          <Button onClick={handleRedirect} variant="contained">
+            Access Inventory
+          </Button>
+      </Typography>
+
+      </Box>
+     
+      
     </Box>
   );
 };

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -33,4 +34,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# Pantry-Inventory-Tracker
+
+This program allows users to keep track of their pantry and items. The data is stored in the firebase cloud. Uses NextJS, Next-Auth, Firebase, and Material UI
+
+> > > > > > > a90728813b46b3c6e707b7dbb6e0e3e8e50d3445

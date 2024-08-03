@@ -9,7 +9,7 @@ const firebaseConfig = {
   authDomain: "inventorymanagement-ec9ff.firebaseapp.com",
   projectId: "inventorymanagement-ec9ff",
   storageBucket: "inventorymanagement-ec9ff.appspot.com",
-  messagingSenderId: "372050591677",
+  messagingSenderId: "",
   appId: "1:372050591677:web:75456eb0e6e4aeb1dc1cd4",
   measurementId: "G-GBYD5PNLPZ"
 };
