@@ -5,7 +5,7 @@ import { getAuth } from 'firebase/auth'; // For Firebase Authentication
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCUYVO6QsgfJmfUARIRnvQdgiMTiEjdTK0",
+  apiKey: process.env.GOOGLE_API_KEY,
   authDomain: "inventorymanagement-ec9ff.firebaseapp.com",
   projectId: "inventorymanagement-ec9ff",
   storageBucket: "inventorymanagement-ec9ff.appspot.com",
